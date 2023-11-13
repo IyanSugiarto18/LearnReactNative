@@ -12,7 +12,7 @@ const Nama = props => {
 
 const ComponentText = () => {
     return (
-        <View style={style.container}>
+        <View style={{alignItems: 'center', marginTop: 20}}>
             <Nama name="Iyan Sugiarto"></Nama>
             <Nama name="Asyifa Nur Alif"></Nama>
 

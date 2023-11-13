@@ -11,6 +11,17 @@ const style = StyleSheet.create({
         color: 'black',
         fontWeight: 'normal',
         fontSize: 20,
+    },
+    image: {
+        width: 200,
+        height: 200,
+    },
+    button: {
+        alignItems: 'center',
+        backgroundColor: '#DDDDDD',
+        padding: 10,
+        width: 200,
+        marginTop: 16,
     }
 });
 
