@@ -21,7 +21,7 @@ const style = StyleSheet.create({
         backgroundColor: '#DDDDDD',
         padding: 10,
         width: 200,
-        marginTop: 16,
+        margin: 10
     }
 });
 

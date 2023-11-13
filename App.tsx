@@ -3,6 +3,8 @@ import { Text, View} from "react-native";
 import TextComponent from "./src/Components/Text/CompponentText";
 import ImageComponent from "./src/Components/Image/ComponentImage";
 import TOComponent from "./src/Components/TouchableOpacity/TouchableState";
+import ButtonComponent from "./src/Components/Button/ButtonComponent";
+
 
 const App = () => {
   return (
@@ -10,6 +12,7 @@ const App = () => {
       <ImageComponent />
       <TextComponent />
       <TOComponent />
+      <ButtonComponent />
     </View>
   );
 };
