@@ -1,11 +1,13 @@
 import React from "react";
-import {Text, View} from "react-native";
+import { Text, View} from "react-native";
+import TextComponent from "./src/Components/Text/CompponentText";
 
-function App() {
-  return 
-  <View>
-    <Text>Hello Wolrd!</Text>
-  </View>;
-}
+const App = () => {
+  return (
+    <View style={{ backgroundColor: '#F2F4FF', flex: 1}}>
+      <TextComponent />
+    </View>
+  );
+};
 
 export default App;
